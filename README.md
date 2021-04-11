@@ -11,7 +11,7 @@ The service helps in creating a user with e-wallet with some default balance, ad
 - Clone this repo:
 ```bash
 > gh repo clone sanjay235/E-Wallet-Service
-> cd Dynamic-Job-Scheduler
+> cd E-Wallet-Service
 ```
 - Install Maven, MySQL(any Database of your choice), IntelliJ(any IDE of your choice).
 - Create database tables provide in the `resources/sql` folder.
