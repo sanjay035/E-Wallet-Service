@@ -14,9 +14,9 @@ The service helps in creating a user with e-wallet with some default balance, ad
 > cd E-Wallet-Service
 ```
 - Install Maven, MySQL(any Database of your choice), IntelliJ(any IDE of your choice).
-- Create database tables provide in the `resources/sql` folder.
 - Update the dependencies given in the `pom.xml` using Maven.
-- Run it as spring boot application in the IDE.
+- Run the Zookeeper, Kafka server and Redis server.
+- Run each of the individual services(User, Wallet, Transaction, Notification) as spring boot application in the IDE.
 
 # Sample API end points:
 ```
