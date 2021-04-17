@@ -49,9 +49,9 @@ Send money to other user's wallet,
 End point = localhost:5000/send-money
 HTTP method = PUT
 JSON body = {
-    "sender": "sanjay35",
-    "receiver": "nikki23",
-    "amount": 35,
+    "sender": "nikki23",
+    "receiver": "sanjay35",
+    "amount": 235,
     "purpose": "This is a festiv gift!"
 }
 ```
