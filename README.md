@@ -24,7 +24,7 @@ Create user will automatically create an e-wallet,
 End point = localhost:7000/user
 HTTP method = POST
 JSON body = {
-    "userId": "sanjay35",
+    "userId": "sanjay",
     "emailId": "sanjayxyz@gmail.com",
     "name": "Sanjay",
     "age": 24
@@ -40,8 +40,8 @@ Add money to the user's wallet,
 End point = localhost:5000/add-money
 HTTP method = PUT
 JSON body = {
-    "receiver": "sanjay35",
-    "amount": 23
+    "receiver": "sanjay",
+    "amount": 35
 }
 ```
 ```
@@ -49,9 +49,9 @@ Send money to other user's wallet,
 End point = localhost:5000/send-money
 HTTP method = PUT
 JSON body = {
-    "sender": "nikki23",
-    "receiver": "sanjay35",
-    "amount": 235,
+    "sender": "sanjay",
+    "receiver": "pavan",
+    "amount": 35,
     "purpose": "This is a festiv gift!"
 }
 ```
